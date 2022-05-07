@@ -1,11 +1,11 @@
 package org.acme.microprofile.graphql;
 
-import java.util.List;
+// import java.util.List;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.ws.rs.DELETE;
-import javax.ws.rs.GET;
+// import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 
@@ -20,11 +20,11 @@ public class FilmRestResource {
     @Inject
     FilmService service;
 
-    @GET
-    @Path("allFilms")
-    public Uni<List<Film>> getFilms() {
-        return service.getFilms();
-    }
+    // @GET
+    // @Path("allFilms")
+    // public Uni<List<Film>> getFilms() {
+    // return service.getFilms();
+    // }
 
     @POST
     public Uni<Boolean> addFilm(final Film f) {
