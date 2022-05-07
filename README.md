@@ -2,7 +2,7 @@
 
 A reproducer for GraphQL exception when no Query are present.
 
-Used in discussion _TBA_.
+Used in discussion [https://github.com/quarkusio/quarkus/discussions/25434](https://github.com/quarkusio/quarkus/discussions/25434).
 
 ## Steps to reproduce
 
